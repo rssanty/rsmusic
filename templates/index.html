@@ -1,0 +1,18 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="{{ url_for('static', filename='tocadiscos.png') }}" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <script src="{{ url_for('static', filename='scritp.js') }}"></script>
+    <title>Rs Download</title>
+</head>
+<body>
+    <div class="header">
+        <p id="status"></p>
+        <input type="text" id="url" class="plan2" placeholder="Enter URL" />
+        <button id="app" class="plan">Download</button>
+    </div>
+</body>
+</html>
